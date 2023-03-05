@@ -110,3 +110,60 @@ header {
     text-transform: uppercase;
     font-size: 1.2rem;
 }
+
+.header-text {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    padding: 40px 0;
+    font-weight: 800;
+    line-height: 25px;
+}
+
+.icon-part {
+    height: 500px;
+    background: rgb(27, 27, 27);
+    color: white;
+
+}
+
+.icon-part-container {
+    max-width: 900px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    margin: 0 auto;
+
+    @media screen and (max-width: 800px) {
+        flex-direction: column;
+        ;
+    }
+
+
+}
+
+.lip-logo {
+    padding: 10px 0;
+}
+
+.lip-logo img {
+    height: 85%;
+}
+
+.list-icon-part {
+    height: 75%;
+
+}
+
+.list-icon-part h3 {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+
+}
+
+.list-icon-part p {
+
+    font-size: 0.8rem;
+    padding: 10px 10px 20px 10px;
+}
